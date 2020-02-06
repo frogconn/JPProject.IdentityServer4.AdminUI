@@ -1,9 +1,9 @@
 export const environment = {
     production: true,
-    IssuerUri:  "http://jpproject-sso:5001",
-    ResourceServer: "http://localhost:5002/",
+    IssuerUri:  "https://sso.kpsolution.dev",
+    ResourceServer: "https://sso-api.kpsolution.dev",
     RequireHttps: false,
-    Uri: "http://localhost:4300",
+    Uri: "https://sso-admin.kpsolution.dev",
     defaultTheme: "A",
     version: "3.0.0"
   };
